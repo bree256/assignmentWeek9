@@ -13,7 +13,7 @@ _Javascript Array methods (they are used to change or manipulate the array)_
 etc
 
 FUNCTIONS
-A JavaScript function is a block of code designed to perform a particular task.
+A function is a block of reusable code written to perform a specific task/A JavaScript function is a block of code designed to perform a particular task.
 and is executed when "something" invokes it (calls it).
 
 A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().
@@ -22,6 +22,7 @@ The parentheses may include parameter names separated by commas:
 (parameter1, parameter2, ...)The code to be executed, by the function, is placed inside curly brackets:
 
 Function Return
+return is a directive that returns a value to the function after the code within it has been executed.
 When JavaScript reaches a return statement, the function will stop executing.
 Functions often compute a return value. The return value is "returned" back to the "caller":
 e.g
