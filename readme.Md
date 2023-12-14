@@ -66,3 +66,44 @@ showMessage();
 Parameters
 We can pass data to functions using parameters.
 Function parameters are the names listed in the function definition and Function arguments are the real values passed to (and received by) the function.
+
+Control flow is the order in which statements are executed in a program;
+There are three main types of flows namely;
+-if/else statements - The if…else statement executes a block of code if a specified condition is true. If the condition is false, another block of code can be executed.
+e.g function isPlural(word) {
+if (word.endsWith('s')) {
+return true
+} else return false
+}
+
+-switch statements - The switch statements provide a means of checking an expression against multiple case clauses. If a case matches, the code inside that clause is executed.
+The case clause should finish with a break keyword. If no case matches but a default clause is included, the code inside default will be executed.
+e.g const food = 'salad';
+
+switch (food) {
+case 'oyster':
+console.log('The taste of the sea');
+break;
+case 'pizza':
+console.log('A delicious pie');
+break;
+default:
+console.log('Enjoy your meal');
+}
+
+-loops - Loops are iteration statements that will keep running until there is either nothing left to loop over, or if the condition becomes false.
+//example
+for (let i = 0; i < 4; i += 1) {
+console.log(i);
+};
+
+// Output: 0, 1, 2, 3
+While Loop
+The while loop creates a loop that is executed as long as a specified condition evaluates to true
+//example
+let i = 0;
+
+while (i < 5) {  
+ console.log(i);
+i++;
+}
